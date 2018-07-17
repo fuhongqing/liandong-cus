@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  margin-bottom: 50px;
+  background-color: #f3f3f3;
+}
+
+p {
+  margin: 0;
+}
+
+.mint-header {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.06);
+  height: 45px;
+}
+
+.black.mint-header {
+  background: #494C5B;
+  .mint-header-title {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+.white.mint-header {
+  background: #fff;
+  .mint-header-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+  }
+}
+
+.mint-header ~ main {
+  margin-top: 40px;
+}
+
+.section {
+  padding: 20px 0;
+  margin-bottom: 16px;
+  background: #ffffff;
+}
